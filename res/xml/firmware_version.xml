@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- StormBreakerOSS version -->
+    <Preference
+        android:key="stormbreaker_version"
+        android:title="@string/stormbreaker_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.StormBreakerVersionPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
